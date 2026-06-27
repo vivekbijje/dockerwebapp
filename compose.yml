@@ -8,7 +8,6 @@ services:
 
  application:
    image: bijje/newapp:appimage
-   container_name: containerapp
    ports:
      - "1234:8080"
    depends_on:

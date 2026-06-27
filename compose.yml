@@ -2,7 +2,6 @@
 version: "3"
 services:
  devopsdb:
-   container_name: devopsdb
    image: bijje/newapp:dbimage
    ports:
      - "3306:3306"
